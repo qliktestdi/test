@@ -1,0 +1,16 @@
+{
+  "id": "customers",
+  "name": "customers",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "datasetId": "$replicate$public_customers",
+      "name": "customers",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication1-mopx",
+      "schema": "{{task.replication1-mopx:null$_$public.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

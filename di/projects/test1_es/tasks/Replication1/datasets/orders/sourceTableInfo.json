@@ -1,0 +1,74 @@
+{
+  "id": "$replicate$public_orders",
+  "name": "public_orders",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "orders",
+    "dbSchema": "public",
+    "dbName": "test_es1",
+    "columns": [
+      {
+        "name": "order_id",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "order_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "customer_id",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "customer_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "order_status",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 8000,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "order_status",
+        "flags": "NONE"
+      },
+      {
+        "name": "order_purchase_timestamp",
+        "ordinal": 4,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "DATE",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "order_purchase_timestamp",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

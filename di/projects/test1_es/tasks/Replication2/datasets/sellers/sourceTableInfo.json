@@ -1,0 +1,43 @@
+{
+  "id": "$replicate$public_sellers",
+  "name": "public_sellers",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "sellers",
+    "dbSchema": "{{task.replication2-mop8:null$_$public.schema}}",
+    "columns": [
+      {
+        "name": "seller_id",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "seller_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "seller_name",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 8000,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "seller_name",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

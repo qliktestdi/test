@@ -1,0 +1,58 @@
+{
+  "id": "$replicate$public_order_items",
+  "name": "public_order_items",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "order_items",
+    "dbSchema": "{{task.replication2-mop8:null$_$public.schema}}",
+    "columns": [
+      {
+        "name": "order_id",
+        "ordinal": 1,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "order_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "product_id",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "product_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "price",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "price",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

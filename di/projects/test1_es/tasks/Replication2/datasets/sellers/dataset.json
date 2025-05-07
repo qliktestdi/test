@@ -1,0 +1,24 @@
+{
+  "id": "sellers",
+  "name": "sellers",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "datasetId": "$replicate$public_sellers",
+      "name": "sellers",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication2-mop8",
+      "schema": "{{task.replication2-mop8:null$_$public.schema}}"
+    }
+  ],
+  "tableDef": {
+    "name": "sellers",
+    "dbSchema": "",
+    "columns": [],
+    "entityId": "sellers",
+    "secureQri": "",
+    "fullLoadOnly": false
+  },
+  "virtualDataset": false,
+  "description": ""
+}

@@ -1,0 +1,49 @@
+{
+  "ordinal": 0,
+  "actionType": "ADD_COLUMN",
+  "scopeType": "COLUMN",
+  "scope": {
+    "whereOwnerName": "ADDCOLUMNISDELIVERED",
+    "whereTableName": "orders",
+    "whereColumnName": "%",
+    "whereDatatype": "UNSPECIFIED",
+    "whereColumnKeyAttribute": "ANY",
+    "whereColumnNullability": "ANY"
+  },
+  "action": {
+    "renameType": "RENAME",
+    "expression": {
+      "expressionStatement": "$IFF(${Q_M_SOURCE_COLUMN_NAME} == \u0027order_status\u0027 AND ${Q_D_COLUMN_DATA} == \u0027Delivered\u0027,${Q_D_COLUMN_DATA}, \u0027Not delivered yet\u0027)",
+      "alias": [
+        {
+          "name": "Q_M_SOURCE_COLUMN_NAME",
+          "value": "$Q_M_SOURCE_COLUMN_NAME"
+        },
+        {
+          "name": "Q_D_COLUMN_DATA",
+          "value": "$Q_D_COLUMN_DATA"
+        }
+      ]
+    },
+    "applyColumnDatatype": false,
+    "column": {
+      "name": "isDelivered",
+      "ordinal": 0,
+      "nullable": true,
+      "primaryKeyOrdinal": 0,
+      "datatype": {
+        "type": "STRING",
+        "length": 50,
+        "precision": 0,
+        "scale": 0,
+        "originalTypeFull": ""
+      },
+      "flags": "NONE"
+    }
+  },
+  "enabled": true,
+  "internalRule": false,
+  "name": "isDelivered",
+  "id": "isdelivered-5gw4",
+  "description": ""
+}

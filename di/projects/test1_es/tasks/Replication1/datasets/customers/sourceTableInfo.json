@@ -1,0 +1,44 @@
+{
+  "id": "$replicate$public_customers",
+  "name": "public_customers",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "customers",
+    "dbSchema": "public",
+    "dbName": "test_es1",
+    "columns": [
+      {
+        "name": "customer_id",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "customer_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "customer_name",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 8000,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "customer_name",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

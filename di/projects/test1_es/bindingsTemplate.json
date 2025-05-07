@@ -1,0 +1,34 @@
+{
+  "variables": {
+    "projectName": "",
+    "platformConnection": "",
+    "cloudStagingConnection": "",
+    "task.replication1-mopx.targetConnection": "",
+    "task.replication1-mopx.targetSchema": "",
+    "task.replication1-mopx.targetStorageConnection": "",
+    "task.replication1-mopx.targetControlTableSchema": "",
+    "task.replication1-mopx.sourceConnection": "",
+    "task.replication1-mopx:null$_$public.schema": "",
+    "task.replication2-mop8.targetConnection": "",
+    "task.replication2-mop8.targetSchema": "",
+    "task.replication2-mop8.targetStorageConnection": "",
+    "task.replication2-mop8.targetControlTableSchema": "",
+    "task.replication2-mop8.sourceConnection": "",
+    "task.replication2-mop8:null$_$public.schema": ""
+  },
+  "idToNameMap": {
+    "replication1-mopx": "Replication1",
+    "replication2-mop8": "Replication2"
+  },
+  "connectionProperties": {
+    "{{id(connection, Default_Data_Space.test_es2dest)}}": {
+      "type": "reptgt_qdipostgresql"
+    },
+    "{{id(connection, Default_Data_Space.test_es1)}}": {
+      "type": "repsrc_postgresql"
+    },
+    "{{id(connection, Default_Data_Space.test_es2)}}": {
+      "type": "repsrc_postgresql"
+    }
+  }
+}
