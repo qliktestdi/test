@@ -1,0 +1,16 @@
+{
+  "id": "tcc_cliente",
+  "name": "tcc_cliente",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "datasetId": "$replicate$public_tcc_cliente",
+      "name": "tcc_cliente",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "los_lagos_transform-pbzd",
+      "schema": "{{task.los_lagos_transform-pbzd:null$_$public.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

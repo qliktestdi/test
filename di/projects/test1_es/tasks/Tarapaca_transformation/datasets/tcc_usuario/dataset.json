@@ -1,0 +1,16 @@
+{
+  "id": "tcc_usuario",
+  "name": "tcc_usuario",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "datasetId": "$replicate$public_tcc_usuario",
+      "name": "tcc_usuario",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "tarapaca_transformation-ekx_",
+      "schema": "{{task.tarapaca_transformation-ekx_:null$_$public.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

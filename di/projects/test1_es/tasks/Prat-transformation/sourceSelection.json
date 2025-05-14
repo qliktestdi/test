@@ -1,0 +1,25 @@
+{
+  "sourceConnection": "{{task.prat_transformation-gj_g.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "name": "tcc_usuario",
+      "schema": "{{task.prat_transformation-gj_g:null$_$public.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$public_tcc_usuario"
+    },
+    {
+      "name": "tcc_contrato",
+      "schema": "{{task.prat_transformation-gj_g:null$_$public.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$public_tcc_contrato"
+    },
+    {
+      "name": "tcc_cliente",
+      "schema": "{{task.prat_transformation-gj_g:null$_$public.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$public_tcc_cliente"
+    }
+  ]
+}

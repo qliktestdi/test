@@ -1,0 +1,719 @@
+{
+  "id": "$replicate$public_tcc_contrato",
+  "name": "public_tcc_contrato",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "tcc_contrato",
+    "dbSchema": "public",
+    "dbName": "db_olimpo",
+    "columns": [
+      {
+        "name": "con_id",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "INT8",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_cc_id",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT8",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_cc_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_doc_id",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT2",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_doc_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_cop_id",
+        "ordinal": 4,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT2",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_cop_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_numcontratoconsecutivo",
+        "ordinal": 5,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_numcontratoconsecutivo",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_cat_id",
+        "ordinal": 6,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT2",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_cat_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_cli_id",
+        "ordinal": 7,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT8",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_cli_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_usr_id",
+        "ordinal": 8,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_usr_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_buk_id",
+        "ordinal": 9,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_buk_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_numbunker",
+        "ordinal": 10,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_numbunker",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_res_id",
+        "ordinal": 11,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT8",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_res_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_lpdi_id",
+        "ordinal": 12,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT8",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_lpdi_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_numhojalibropdi",
+        "ordinal": 13,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_numhojalibropdi",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_valortotalcontrato",
+        "ordinal": 14,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 18,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_valortotalcontrato",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_valortotalretroventa",
+        "ordinal": 15,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 18,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_valortotalretroventa",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_valorretroventapagada",
+        "ordinal": 16,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 18,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_valorretroventapagada",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_valorletrastotalretroventa",
+        "ordinal": 17,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 250,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_valorletrastotalretroventa",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_fechainiciocontrato",
+        "ordinal": 18,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "DATE",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_fechainiciocontrato",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_fechafincontrato",
+        "ordinal": 19,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "DATE",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_fechafincontrato",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_fechafincontratoextendido",
+        "ordinal": 20,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "DATE",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_fechafincontratoextendido",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_est_id",
+        "ordinal": 21,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT2",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_est_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_fechaestado",
+        "ordinal": 22,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "DATETIME",
+          "length": 0,
+          "precision": 6,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_fechaestado",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_promediocompra",
+        "ordinal": 23,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_promediocompra",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_numbolsaseguridad",
+        "ordinal": 24,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_numbolsaseguridad",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_id_factura",
+        "ordinal": 25,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT8",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_id_factura",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_id_boleta",
+        "ordinal": 26,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT8",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_id_boleta",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_fechacreacioncontratoreal",
+        "ordinal": 27,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "DATETIME",
+          "length": 0,
+          "precision": 6,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_fechacreacioncontratoreal",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_detallecortocontrato",
+        "ordinal": 28,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 150,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_detallecortocontrato",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_valorletras",
+        "ordinal": 29,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 150,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_valorletras",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_cargousuario",
+        "ordinal": 30,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 150,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_cargousuario",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_libronegroitem",
+        "ordinal": 31,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_libronegroitem",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_libronegrohoja",
+        "ordinal": 32,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_libronegrohoja",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_descuentocomercial",
+        "ordinal": 33,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_descuentocomercial",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_contratoaplazado",
+        "ordinal": 34,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT2",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_contratoaplazado",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_pesototal",
+        "ordinal": 35,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 6,
+          "scale": 1,
+          "originalTypeFull": ""
+        },
+        "id": "con_pesototal",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_pesototalcontratado",
+        "ordinal": 36,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 6,
+          "scale": 1,
+          "originalTypeFull": ""
+        },
+        "id": "con_pesototalcontratado",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_reimpreso",
+        "ordinal": 37,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT2",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_reimpreso",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_cantidadjoyascontrato",
+        "ordinal": 38,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT2",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_cantidadjoyascontrato",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_numaplazamientos",
+        "ordinal": 39,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT2",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_numaplazamientos",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_id_apoderado",
+        "ordinal": 40,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT8",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_id_apoderado",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_tuvodescuento",
+        "ordinal": 41,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT2",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_tuvodescuento",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_mot_id",
+        "ordinal": 42,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT2",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_mot_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_des_id",
+        "ordinal": 43,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT2",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_des_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_valordescuentoretroventa",
+        "ordinal": 44,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_valordescuentoretroventa",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_fechadescuento",
+        "ordinal": 45,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "DATE",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_fechadescuento",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_codbarra",
+        "ordinal": 46,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 13,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_codbarra",
+        "flags": "NONE"
+      },
+      {
+        "name": "con_aviso",
+        "ordinal": 47,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT2",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "con_aviso",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

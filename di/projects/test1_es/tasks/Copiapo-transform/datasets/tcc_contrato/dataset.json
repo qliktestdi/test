@@ -1,0 +1,16 @@
+{
+  "id": "tcc_contrato",
+  "name": "tcc_contrato",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "datasetId": "$replicate$public_tcc_contrato",
+      "name": "tcc_contrato",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "copiapo_transform-qkqh",
+      "schema": "{{task.copiapo_transform-qkqh:null$_$public.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sourceConnection": "{{task.tarapaca_transformation-ekx_.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "name": "tcc_usuario",
+      "schema": "{{task.tarapaca_transformation-ekx_:null$_$public.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$public_tcc_usuario"
+    },
+    {
+      "name": "tcc_contrato",
+      "schema": "{{task.tarapaca_transformation-ekx_:null$_$public.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$public_tcc_contrato"
+    },
+    {
+      "name": "tcc_cliente",
+      "schema": "{{task.tarapaca_transformation-ekx_:null$_$public.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$public_tcc_cliente"
+    }
+  ]
+}

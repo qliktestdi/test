@@ -1,0 +1,25 @@
+{
+  "sourceConnection": "{{task.copiapo_transform-qkqh.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "name": "tcc_usuario",
+      "schema": "{{task.copiapo_transform-qkqh:null$_$public.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$public_tcc_usuario"
+    },
+    {
+      "name": "tcc_cliente",
+      "schema": "{{task.copiapo_transform-qkqh:null$_$public.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$public_tcc_cliente"
+    },
+    {
+      "name": "tcc_contrato",
+      "schema": "{{task.copiapo_transform-qkqh:null$_$public.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$public_tcc_contrato"
+    }
+  ]
+}

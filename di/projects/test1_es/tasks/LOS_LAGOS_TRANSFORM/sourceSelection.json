@@ -1,0 +1,25 @@
+{
+  "sourceConnection": "{{task.los_lagos_transform-pbzd.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "name": "tcc_usuario",
+      "schema": "{{task.los_lagos_transform-pbzd:null$_$public.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$public_tcc_usuario"
+    },
+    {
+      "name": "tcc_contrato",
+      "schema": "{{task.los_lagos_transform-pbzd:null$_$public.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$public_tcc_contrato"
+    },
+    {
+      "name": "tcc_cliente",
+      "schema": "{{task.los_lagos_transform-pbzd:null$_$public.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$public_tcc_cliente"
+    }
+  ]
+}

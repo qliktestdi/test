@@ -1,34 +1,64 @@
 {
   "variables": {
-    "projectName": "",
-    "platformConnection": "",
     "cloudStagingConnection": "",
-    "task.replication1-mopx.targetConnection": "",
-    "task.replication1-mopx.targetSchema": "",
-    "task.replication1-mopx.targetStorageConnection": "",
-    "task.replication1-mopx.targetControlTableSchema": "",
-    "task.replication1-mopx.sourceConnection": "",
-    "task.replication1-mopx:null$_$public.schema": "",
-    "task.replication2-mop8.targetConnection": "",
-    "task.replication2-mop8.targetSchema": "",
-    "task.replication2-mop8.targetStorageConnection": "",
-    "task.replication2-mop8.targetControlTableSchema": "",
-    "task.replication2-mop8.sourceConnection": "",
-    "task.replication2-mop8:null$_$public.schema": ""
+    "platformConnection": "",
+    "projectName": "",
+    "task.copiapo_transform-qkqh.sourceConnection": "",
+    "task.copiapo_transform-qkqh.targetConnection": "",
+    "task.copiapo_transform-qkqh.targetControlTableSchema": "",
+    "task.copiapo_transform-qkqh.targetSchema": "",
+    "task.copiapo_transform-qkqh.targetStorageConnection": "",
+    "task.copiapo_transform-qkqh:null$_$public.schema": "",
+    "task.gran_avenida_transformation-om2-.sourceConnection": "",
+    "task.gran_avenida_transformation-om2-.targetConnection": "",
+    "task.gran_avenida_transformation-om2-.targetControlTableSchema": "",
+    "task.gran_avenida_transformation-om2-.targetSchema": "",
+    "task.gran_avenida_transformation-om2-.targetStorageConnection": "",
+    "task.gran_avenida_transformation-om2-:null$_$public.schema": "",
+    "task.los_lagos_transform-pbzd.sourceConnection": "",
+    "task.los_lagos_transform-pbzd.targetConnection": "",
+    "task.los_lagos_transform-pbzd.targetControlTableSchema": "",
+    "task.los_lagos_transform-pbzd.targetSchema": "",
+    "task.los_lagos_transform-pbzd.targetStorageConnection": "",
+    "task.los_lagos_transform-pbzd:null$_$public.schema": "",
+    "task.prat_transformation-gj_g.sourceConnection": "",
+    "task.prat_transformation-gj_g.targetConnection": "",
+    "task.prat_transformation-gj_g.targetControlTableSchema": "",
+    "task.prat_transformation-gj_g.targetSchema": "",
+    "task.prat_transformation-gj_g.targetStorageConnection": "",
+    "task.prat_transformation-gj_g:null$_$public.schema": "",
+    "task.tarapaca_transformation-ekx_.sourceConnection": "",
+    "task.tarapaca_transformation-ekx_.targetConnection": "",
+    "task.tarapaca_transformation-ekx_.targetControlTableSchema": "",
+    "task.tarapaca_transformation-ekx_.targetSchema": "",
+    "task.tarapaca_transformation-ekx_.targetStorageConnection": "",
+    "task.tarapaca_transformation-ekx_:null$_$public.schema": ""
   },
   "idToNameMap": {
-    "replication1-mopx": "Replication1",
-    "replication2-mop8": "Replication2"
+    "copiapo_transform-qkqh": "Copiapo-transform",
+    "gran_avenida_transformation-om2-": "Gran_Avenida-Transformation",
+    "los_lagos_transform-pbzd": "LOS_LAGOS_TRANSFORM",
+    "prat_transformation-gj_g": "Prat-transformation",
+    "tarapaca_transformation-ekx_": "Tarapaca_transformation"
   },
   "connectionProperties": {
+    "{{id(connection, Default_Data_Space.Copiapo)}}": {
+      "type": "repsrc_postgresql"
+    },
+    "{{id(connection, Default_Data_Space.Gran Avenida)}}": {
+      "type": "repsrc_postgresql"
+    },
+    "{{id(connection, Default_Data_Space.LOS LAGOS)}}": {
+      "type": "repsrc_postgresql"
+    },
+    "{{id(connection, Default_Data_Space.Prat)}}": {
+      "type": "repsrc_postgresql"
+    },
+    "{{id(connection, Default_Data_Space.Tarapaca)}}": {
+      "type": "repsrc_postgresql"
+    },
     "{{id(connection, Default_Data_Space.test_es2dest)}}": {
       "type": "reptgt_qdipostgresql"
-    },
-    "{{id(connection, Default_Data_Space.test_es1)}}": {
-      "type": "repsrc_postgresql"
-    },
-    "{{id(connection, Default_Data_Space.test_es2)}}": {
-      "type": "repsrc_postgresql"
     }
   }
 }

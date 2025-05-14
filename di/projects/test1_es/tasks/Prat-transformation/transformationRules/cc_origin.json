@@ -1,0 +1,40 @@
+{
+  "ordinal": 0,
+  "actionType": "ADD_COLUMN",
+  "scopeType": "COLUMN",
+  "scope": {
+    "whereOwnerName": "%",
+    "whereTableName": "%",
+    "whereColumnName": "%",
+    "whereDatatype": "UNSPECIFIED",
+    "whereColumnKeyAttribute": "ANY",
+    "whereColumnNullability": "ANY"
+  },
+  "action": {
+    "renameType": "RENAME",
+    "expression": {
+      "expressionStatement": "18013",
+      "alias": []
+    },
+    "applyColumnDatatype": false,
+    "column": {
+      "name": "cc_origin",
+      "ordinal": 0,
+      "nullable": true,
+      "primaryKeyOrdinal": 1,
+      "datatype": {
+        "type": "NUMERIC",
+        "length": 50,
+        "precision": 18,
+        "scale": 0,
+        "originalTypeFull": ""
+      },
+      "flags": "NONE"
+    }
+  },
+  "enabled": true,
+  "internalRule": false,
+  "name": "cc_origin",
+  "id": "cc_origin-3jsu",
+  "description": ""
+}
